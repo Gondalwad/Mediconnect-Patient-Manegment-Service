@@ -1,0 +1,9 @@
+2025-08-30T04:07:20.515+05:30  WARN 2284 --- [Patient-Serivce] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m42s430ms692µs500ns).
+2025-08-30T05:10:35.181+05:30  WARN 2284 --- [Patient-Serivce] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m13s296ms229µs700ns).
+2025-08-30T16:01:00.529+05:30  WARN 2284 --- [Patient-Serivce] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h50m27s144ms959µs200ns).
+2025-08-30T16:01:34.340+05:30  INFO 2284 --- [Patient-Serivce] [SpringApplicationShutdownHook] n.d.b.g.s.s.GrpcServerLifecycle          : Completed gRPC server shutdown
+2025-08-30T16:01:34.418+05:30  INFO 2284 --- [Patient-Serivce] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-30T16:01:34.581+05:30  INFO 2284 --- [Patient-Serivce] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-30T16:01:34.897+05:30  INFO 2284 --- [Patient-Serivce] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-30T16:01:35.200+05:30  INFO 2284 --- [Patient-Serivce] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-30T16:01:35.317+05:30  INFO 2284 --- [Patient-Serivce] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

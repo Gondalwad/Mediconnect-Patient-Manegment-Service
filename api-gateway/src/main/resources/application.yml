@@ -1,0 +1,27 @@
+server:
+  port : 4440
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: auth-service
+              uri: http://auth-service:4044
+              predicates:
+                - Path=/auth/**
+              filters:
+                - StripPrefix=1
+
+            - id: patient-service-route
+              uri: http://patientService:4000
+              predicates:
+                - Path=/api/**
+              filters:
+                - StripPrefix=1
+                - JwtValidation
+
+authService:
+  uri:http://localhost:4044
